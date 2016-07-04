@@ -212,7 +212,7 @@ function build_bundle() {
   popd
 }
 
-function deploy_bundle {
+function deploy_bundle() {
   for fn in `ls conf/lambda/functions`; do
     aws --profile $profile lambda update-function-code \
       --function-name $fn \
