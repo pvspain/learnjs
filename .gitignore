@@ -3,3 +3,4 @@ dist
 working
 master
 credentials.csv
+node_modules/
